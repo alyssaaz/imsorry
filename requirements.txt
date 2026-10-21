@@ -1,0 +1,11 @@
+# PENTING: samakan versi scikit-learn & feature-engine dengan environment tempat model dilatih
+# (jalankan `pip freeze | findstr /i "scikit-learn feature-engine streamlit"` di h8_env),
+# lalu ganti baris di bawah menjadi versi yang persis sama, misal scikit-learn==x.y.z
+streamlit
+pandas
+numpy
+scipy
+scikit-learn
+feature-engine
+matplotlib
+seaborn
